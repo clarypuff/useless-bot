@@ -1,10 +1,10 @@
 function answerQuery(query) {
   query = query.toLowerCase();
   if (query.indexOf("rain") != -1 || query.indexOf("sun") != -1 || query.indexOf("weather") != -1)
-    return "I do not care too much about weather, I'm locked inside a data center.";
+    return "Who cares about the weather when life always rains on your parade?";
 if (query.indexOf("tea") != -1 || query.indexOf("biscuits") != -1 || query.indexOf("drink") != -1)
-    return "The best drink is hot chocolate! Or perhaps the Pan Galactic Gargle Blaster.";
-  return "Sorry Dave, I cannot do that."
+    return "Why drink? Just dehydrate and die. Oh, alright, if you must know, I've heard that humans like the Pan Galactic Gargle Blaster.";
+  return "What are you even saying, Arthur? Get your act together.";
 }
 
 
