@@ -17,7 +17,7 @@ function handleSayClick() {
   // Get answer for the given query and show the query & answer
   var answer = answerQuery(message)
   conversation.innerHTML += "<p><strong>You:</strong> " + message + "</p>";
-  conversation.innerHTML += "<p><strong>Useless bot:</strong> " + answer + "</p>";
+  conversation.innerHTML += "<p><strong>NUB:</strong> " + answer + "</p>";
 }
 
 
